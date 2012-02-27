@@ -54,6 +54,7 @@
 ;; 
 ;;; Variables
 (require 'cl)
+(require 'font-lock-ext)
 
 (defgroup mks nil
   "Support for mks"
@@ -532,7 +533,7 @@ Turning on mks-blame mode runs the normal hook `mks-blame-mode-hook'."
 
 (defconst mks-stat-font-lock-keywords
   (list
-   (list mks-stat-regexp '(7 hi-unimportant nil t))
+   (list mks-stat-regexp '(7 font-lock-unimportant nil t))
    ))
 
 (defun mks-stat-info()
