@@ -1,11 +1,10 @@
 ;;; mks.el --- mks source interface for emacs
 ;; 
-;; Copyright 2010-2011 Florian Kaufmann <sensorflo@gmail.com>
+;; Copyright 2010-2012 Florian Kaufmann <sensorflo@gmail.com>
 ;;
 ;; Author: Florian Kaufmann <sensorflo@gmail.com>
-;; URL: http://sensorflo-emacs.googlecode.com/svn/trunk/mks.el
+;; URL: http://code.google.com/p/mks/
 ;; Created: 2010
-;; Version: 0.1.0
 ;; Keywords: tools 
 ;; 
 ;; This file is not part of GNU Emacs.
@@ -54,7 +53,7 @@
 ;; 
 ;;; Variables
 (require 'cl)
-(require 'font-lock-ext)
+(require 'font-lock-ext) ; https://github.com/sensorflo/font-lock-ext/
 
 (defgroup mks nil
   "Support for mks"
