@@ -3,7 +3,7 @@
 ;; Copyright 2010-2012 Florian Kaufmann <sensorflo@gmail.com>
 ;;
 ;; Author: Florian Kaufmann <sensorflo@gmail.com>
-;; URL: http://code.google.com/p/mks/
+;; URL: https://github.com/sensorflo/mks
 ;; Created: 2010
 ;; Keywords: tools 
 ;; 
